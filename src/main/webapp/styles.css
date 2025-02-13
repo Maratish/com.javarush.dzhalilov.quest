@@ -1,0 +1,51 @@
+
+.index-page {
+    background-image: url('bg.jpg');
+}
+
+.game-page {
+    background-image: url('wr.jpg');
+}
+
+.win-page {
+    background-image: url('win.png');
+}
+
+.lose-page {
+    background-image: url('lose.jpg');
+}
+body {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 32px;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+.answer-card {
+    background: rgba(255,255,255,0.1);
+    padding: 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.button-style {
+    background: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

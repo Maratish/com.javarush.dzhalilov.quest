@@ -1,0 +1,68 @@
+[
+  {
+    "questionId": 1,
+    "question": "Ты родился в Дагестане. Пойти на борьбу или в компьютерный клуб?",
+    "answers": [
+      {
+        "answerId": 11,
+        "answerText": "Пойти на борьбу жи есть",
+        "nextQuestionId": 2,
+        "win": null
+      },
+      {
+        "answerId": 12,
+        "answerText": "Пойти в компьютерный клуб",
+        "nextQuestionId": null,
+        "win": false
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Ты пошел на борьбу. Оказывается, Александр Карелин тоже здесь на гостевой тренировке. Он предлагает тебе побороться. Соглашаешься?",
+    "answers": [
+      {
+        "answerId": 21,
+        "answerText": "Сказать, что болит левое колено",
+        "nextQuestionId": 3,
+        "win": null
+      },
+      {
+        "answerId": 22,
+        "answerText": "Согласиться",
+        "nextQuestionId": null,
+        "win": false
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "Алксандр Карелин смотрит на тебя с подозрением. Просит попрыгать тебя на одной ноге",
+    "answers": [
+      {
+        "answerId": 31,
+        "answerText": "Попрыгать на правой ноге и изобразить боль",
+        "nextQuestionId": null,
+        "win": false
+      },
+      {
+        "answerId": 32,
+        "answerText": "Попрыгать на левой ноге и изобразить боль",
+        "nextQuestionId": 4,
+        "win": true
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Ты выжил",
+    "answers": [
+      {
+        "answerId": 41,
+        "answerText": "Приз: приора",
+        "nextQuestionId": null,
+        "win": true
+      }
+    ]
+  }
+]
