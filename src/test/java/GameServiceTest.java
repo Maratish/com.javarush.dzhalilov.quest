@@ -12,23 +12,20 @@ public class GameServiceTest {
     public void setUp() {
         gameService = new GameService();
     }
-
     @Test
-    public void testChooseAnswer_Win() {
+    public void testChooseAnswerWin() {
         GameState result = gameService.chooseAnswer(3L, 41L);
         assertTrue(result.isGameOver());
         assertEquals("LOSS", result.getResult());
     }
-
     @Test
-    public void testChooseAnswer_Loss() {
+    public void testChooseAnswerLoss() {
         GameState result= gameService.chooseAnswer(2L, 22L);
         assertTrue(result.isGameOver());
         assertEquals("LOSS", result.getResult());
     }
-
     @Test
-    public void testChooseAnswer_NextQuestion() {
+    public void testChooseAnswerNextQuestion() {
         GameState result = gameService.chooseAnswer(1L, 11L);
         assertFalse(result.isGameOver());
         assertEquals(2L, result.getNextQuestion().getQuestionId());

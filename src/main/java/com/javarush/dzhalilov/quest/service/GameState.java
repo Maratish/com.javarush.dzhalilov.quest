@@ -9,15 +9,12 @@ public class GameState {
         this.nextQuestion = nextQuestion;
         this.result = result;
     }
-
     public Question getNextQuestion() {
         return nextQuestion;
     }
-
     public String getResult() {
         return result;
     }
-
     public boolean isGameOver() {
         return result != null;
     }

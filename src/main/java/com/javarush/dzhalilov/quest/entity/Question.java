@@ -12,27 +12,21 @@ public class Question {
 
     public Question() {
     }
-
     public long getQuestionId() {
         return questionId;
     }
-
     public void setQuestionId(long id) {
         this.questionId = id;
     }
-
     public String getQuestionText() {
         return questionText;
     }
-
     public void setQuestionText(String questionText) {
         this.questionText = questionText;
     }
-
     public List<Answer> getAnswers() {
         return answers;
     }
-
     public void setAnswers(List<Answer> answers) {
         this.answers = answers;
     }

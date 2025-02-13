@@ -59,12 +59,10 @@ public class GameService {
         if (currentQuestion == null) {
             return new GameState(null, "LOSS");
         }
-
         Answer selectedAnswer = getAnswerById(currentQuestion, answerId);
         if (selectedAnswer == null) {
             return new GameState(null, "LOSS");
         }
-
         if (selectedAnswer.getNextQuestionId() == null) {
             if (selectedAnswer.isWin() != null && selectedAnswer.isWin()) {
                 return new GameState(null, "WIN");
@@ -72,7 +70,6 @@ public class GameService {
                 return new GameState(null, "LOSS");
             }
         }
-
         Question nextQuestion = getQuestionById(selectedAnswer.getNextQuestionId());
         return new GameState(nextQuestion, null);
     }

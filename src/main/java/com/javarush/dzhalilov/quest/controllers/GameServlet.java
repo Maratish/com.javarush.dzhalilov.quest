@@ -31,7 +31,6 @@ public class GameServlet extends HttpServlet {
         if (currentQuestionId == null) {
             currentQuestionId = 1L;
         }
-
         if (answerIdString != null && !answerIdString.isEmpty()) {
             Long answerId = Long.parseLong(answerIdString);
 

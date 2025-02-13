@@ -13,7 +13,6 @@
       margin: 0 auto;
       width: fit-content;
     }
-
     .answer-card input[type="radio"] {
       margin: 0;
       width: 20px;

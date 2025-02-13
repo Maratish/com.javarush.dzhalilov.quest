@@ -13,31 +13,24 @@ public class Answer {
 
     public Answer() {
     }
-
     public Boolean isWin() {
         return win;
     }
-
     public String getAnswerText() {
         return answerText;
     }
-
     public void setAnswerText(String answerText) {
         this.answerText = answerText;
     }
-
     public long getAnswerId() {
         return answerId;
     }
-
     public void setAnswerId(long answerId) {
         this.answerId = answerId;
     }
-
     public Long getNextQuestionId() {
         return nextQuestionId;
     }
-
     public void setNextQuestionId(Long nextQuestionId) {
         this.nextQuestionId = nextQuestionId;
     }
